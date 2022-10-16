@@ -19,4 +19,8 @@ spec:
           name: nginx
           ports:
             - containerPort: 80
-
+global:
+  ssl:
+    enabled: false
+  argocd:
+    host: xxx
