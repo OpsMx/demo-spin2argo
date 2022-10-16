@@ -19,7 +19,6 @@ spec:
           name: nginx
           ports:
             - containerPort: 80
-  relicas: 3
 global:
   ssl:
     enabled: false
