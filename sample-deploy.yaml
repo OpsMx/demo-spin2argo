@@ -17,12 +17,13 @@ spec:
         app: nginx
     spec:
       containers:
-        - image: 'nginx:1.14.1'
+        - image: 'nginx:1.14.0'
           name: nginx
           ports:
             - containerPort: 80
-#global:
-  #ssl:
+              #global:
+    #ssl:
     #enabled: false
-  #argocd:
-    #host: xxx
+
+#argocd:
+#host: xxx
