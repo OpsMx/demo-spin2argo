@@ -2,12 +2,12 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    jiraid: OP-LOCAL
+    jiraid: OP-1234
   labels:
     app: nginx
   name: nginx-deployment
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: nginx
